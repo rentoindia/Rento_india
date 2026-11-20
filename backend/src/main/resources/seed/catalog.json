@@ -1,0 +1,912 @@
+[
+ {
+  "name": "Furniture",
+  "icon": "assets/images/rental/categories/Furniture.png",
+  "subcategories": [
+   "Home Furniture",
+   "Office & Workspace Furniture",
+   "Outdoor & Garden Furniture",
+   "Kids & Baby Furniture",
+   "Event & Party Furniture",
+   "Smart & Tech-Integrated Furniture",
+   "Specialty & Luxury Furniture"
+  ],
+  "products": [
+   {
+    "name": "Sofa 3 Seater",
+    "pricePerDay": 699,
+    "image": "https://picsum.photos/seed/furn1/200/200",
+    "sub": "Home Furniture"
+   },
+   {
+    "name": "Ergonomic Office Chair",
+    "pricePerDay": 249,
+    "image": "https://picsum.photos/seed/furn2/200/200",
+    "sub": "Office & Workspace Furniture"
+   },
+   {
+    "name": "Garden Bench Set",
+    "pricePerDay": 399,
+    "image": "https://picsum.photos/seed/furn3/200/200",
+    "sub": "Outdoor & Garden Furniture"
+   },
+   {
+    "name": "Kids Bunk Bed",
+    "pricePerDay": 349,
+    "image": "https://picsum.photos/seed/furn4/200/200",
+    "sub": "Kids & Baby Furniture"
+   },
+   {
+    "name": "Party Folding Tables",
+    "pricePerDay": 199,
+    "image": "https://picsum.photos/seed/furn5/200/200",
+    "sub": "Event & Party Furniture"
+   }
+  ]
+ },
+ {
+  "name": "Vehicles",
+  "icon": "assets/images/rental/categories/vehicle.png",
+  "subcategories": [
+   "Two-Wheelers",
+   "Three-Wheelers",
+   "Four-Wheelers",
+   "Cycle",
+   "Commercial & Heavy Vehicles",
+   "Rental & Recreational Vehicles"
+  ],
+  "products": [
+   {
+    "name": "Honda Activa 6G",
+    "pricePerDay": 249,
+    "image": "https://picsum.photos/seed/veh1/200/200",
+    "sub": "Two-Wheelers"
+   },
+   {
+    "name": "Auto Rickshaw",
+    "pricePerDay": 399,
+    "image": "https://picsum.photos/seed/veh2/200/200",
+    "sub": "Three-Wheelers"
+   },
+   {
+    "name": "Hyundai i20",
+    "pricePerDay": 1599,
+    "image": "https://picsum.photos/seed/veh3/200/200",
+    "sub": "Four-Wheelers"
+   },
+   {
+    "name": "Mountain Bike",
+    "pricePerDay": 149,
+    "image": "https://picsum.photos/seed/veh4/200/200",
+    "sub": "Cycle"
+   },
+   {
+    "name": "Mini Delivery Truck",
+    "pricePerDay": 2199,
+    "image": "https://picsum.photos/seed/veh5/200/200",
+    "sub": "Commercial & Heavy Vehicles"
+   }
+  ]
+ },
+ {
+  "name": "Electronics & Devices",
+  "icon": "assets/images/rental/categories/Electronics & Devices.png",
+  "subcategories": [
+   "Personal Electronics",
+   "Computing Devices",
+   "Cameras & Photography Equipment",
+   "Audio & Music Equipment",
+   "Gaming & Accessories",
+   "Home Appliances & Smart Home Devices",
+   "Office & Productivity Electronics",
+   "Kitchen & Cooking Appliances",
+   "Wearable Tech & Health Devices",
+   "Specialized & Industrial Electronics"
+  ],
+  "products": [
+   {
+    "name": "iPhone 15",
+    "pricePerDay": 799,
+    "image": "https://picsum.photos/seed/elec1/200/200",
+    "sub": "Personal Electronics"
+   },
+   {
+    "name": "MacBook Air M2",
+    "pricePerDay": 999,
+    "image": "https://picsum.photos/seed/elec2/200/200",
+    "sub": "Computing Devices"
+   },
+   {
+    "name": "Canon DSLR 1200D",
+    "pricePerDay": 599,
+    "image": "https://picsum.photos/seed/elec3/200/200",
+    "sub": "Cameras & Photography Equipment"
+   },
+   {
+    "name": "Bluetooth Speaker",
+    "pricePerDay": 199,
+    "image": "https://picsum.photos/seed/elec4/200/200",
+    "sub": "Audio & Music Equipment"
+   },
+   {
+    "name": "PlayStation 5",
+    "pricePerDay": 599,
+    "image": "https://picsum.photos/seed/elec5/200/200",
+    "sub": "Gaming & Accessories"
+   }
+  ]
+ },
+ {
+  "name": "Books & Stationery",
+  "icon": "assets/images/rental/categories/Books & Stationery.png",
+  "subcategories": [
+   "Textbooks & Academic Materials",
+   "Competitive Exams & Professional Prep",
+   "Fiction & Literature",
+   "Non-Fiction & General Knowledge",
+   "Science, Technology, and Medical",
+   "Religious, Spiritual & Mythology",
+   "Children & Teen Books",
+   "Magazines & Periodicals",
+   "Digital & Audio Formats",
+   "Writing Tools",
+   "Paper Products",
+   "Organizers & Filing",
+   "Art & Creative Supplies",
+   "Mathematical & Technical Tools",
+   "School & College Essentials",
+   "Office & Professional Stationery",
+   "Presentation Tools",
+   "Labeling & Personalization",
+   "Calligraphy & Design"
+  ],
+  "products": [
+   {
+    "name": "Engineering Textbook Set",
+    "pricePerDay": 49,
+    "image": "https://picsum.photos/seed/book1/200/200",
+    "sub": "Textbooks & Academic Materials"
+   },
+   {
+    "name": "The Alchemist",
+    "pricePerDay": 29,
+    "image": "https://picsum.photos/seed/book2/200/200",
+    "sub": "Fiction & Literature"
+   },
+   {
+    "name": "Drafting Tool Kit",
+    "pricePerDay": 39,
+    "image": "https://picsum.photos/seed/book3/200/200",
+    "sub": "Mathematical & Technical Tools"
+   },
+   {
+    "name": "Calligraphy Pen Set",
+    "pricePerDay": 59,
+    "image": "https://picsum.photos/seed/book4/200/200",
+    "sub": "Calligraphy & Design"
+   }
+  ]
+ },
+ {
+  "name": "Clothing & Accessories",
+  "icon": "assets/images/rental/categories/clothing and accessories.png",
+  "subcategories": [
+   "Men's Clothing",
+   "Women's Clothing",
+   "Kid's Clothing",
+   "Seasonal & Specialty Wear",
+   "Wedding & Formal Wear",
+   "Footwear",
+   "Accessories",
+   "Jewelry & Fashion Accessories"
+  ],
+  "products": [
+   {
+    "name": "Formal Blazer",
+    "pricePerDay": 299,
+    "image": "https://picsum.photos/seed/cloth1/200/200",
+    "sub": "Men's Clothing"
+   },
+   {
+    "name": "Designer Saree",
+    "pricePerDay": 499,
+    "image": "https://picsum.photos/seed/cloth2/200/200",
+    "sub": "Women's Clothing"
+   },
+   {
+    "name": "Party Shoes",
+    "pricePerDay": 199,
+    "image": "https://picsum.photos/seed/cloth3/200/200",
+    "sub": "Footwear"
+   },
+   {
+    "name": "Statement Necklace",
+    "pricePerDay": 149,
+    "image": "https://picsum.photos/seed/cloth4/200/200",
+    "sub": "Jewelry & Fashion Accessories"
+   }
+  ]
+ },
+ {
+  "name": "Machinery & Tools",
+  "icon": "assets/images/rental/categories/machinery & tools.png",
+  "subcategories": [
+   "Construction Machinery",
+   "Agricultural Machinery",
+   "Industrial Machinery",
+   "Power Tools",
+   "Hand Tools",
+   "Gardening Tools & Equipment",
+   "Safety & Support Equipment",
+   "Testing & Measuring Tools",
+   "Miscellaneous Tools & Machines"
+  ],
+  "products": [
+   {
+    "name": "Cordless Drill",
+    "pricePerDay": 149,
+    "image": "https://picsum.photos/seed/mach1/200/200",
+    "sub": "Power Tools"
+   },
+   {
+    "name": "Tractor (Mini)",
+    "pricePerDay": 1999,
+    "image": "https://picsum.photos/seed/mach2/200/200",
+    "sub": "Agricultural Machinery"
+   },
+   {
+    "name": "Digital Multimeter",
+    "pricePerDay": 99,
+    "image": "https://picsum.photos/seed/mach3/200/200",
+    "sub": "Testing & Measuring Tools"
+   }
+  ]
+ },
+ {
+  "name": "Sports Equipment and Gaming",
+  "icon": "assets/images/rental/categories/sports & gaming.png",
+  "subcategories": [
+   "Outdoor Sports",
+   "Indoor Sports",
+   "Fitness & Gym Equipment",
+   "Adventure & Outdoor Gear",
+   "Athletics Equipment",
+   "Water Sports Equipment",
+   "Winter Sports Gear",
+   "Martial Arts Equipment",
+   "Cycling Accessories",
+   "Playstation",
+   "Miscellaneous Sports Equipment"
+  ],
+  "products": [
+   {
+    "name": "Treadmill",
+    "pricePerDay": 699,
+    "image": "https://picsum.photos/seed/sport1/200/200",
+    "sub": "Fitness & Gym Equipment"
+   },
+   {
+    "name": "Cricket Kit",
+    "pricePerDay": 299,
+    "image": "https://picsum.photos/seed/sport2/200/200",
+    "sub": "Outdoor Sports"
+   },
+   {
+    "name": "PlayStation 5",
+    "pricePerDay": 599,
+    "image": "https://picsum.photos/seed/sport3/200/200",
+    "sub": "Playstation"
+   },
+   {
+    "name": "Surfboard",
+    "pricePerDay": 499,
+    "image": "https://picsum.photos/seed/sport4/200/200",
+    "sub": "Water Sports Equipment"
+   }
+  ]
+ },
+ {
+  "name": "Toys & Baby Gear",
+  "icon": "assets/images/rental/categories/toys and baby gear.png",
+  "subcategories": [
+   "Toys (Infants to Teens)",
+   "Baby Gear",
+   "Outdoor Play Equipment",
+   "Learning & Development Aids",
+   "Party & Celebration Toys"
+  ],
+  "products": [
+   {
+    "name": "Baby Stroller",
+    "pricePerDay": 149,
+    "image": "https://picsum.photos/seed/toy1/200/200",
+    "sub": "Baby Gear"
+   },
+   {
+    "name": "LEGO Set",
+    "pricePerDay": 99,
+    "image": "https://picsum.photos/seed/toy2/200/200",
+    "sub": "Toys (Infants to Teens)"
+   },
+   {
+    "name": "Kids Trampoline",
+    "pricePerDay": 249,
+    "image": "https://picsum.photos/seed/toy3/200/200",
+    "sub": "Outdoor Play Equipment"
+   }
+  ]
+ },
+ {
+  "name": "Cosmetics & Beauty Equipment",
+  "icon": "assets/images/rental/categories/cosmetics & beauty product.png",
+  "subcategories": [
+   "Salon & Spa Equipment",
+   "Makeup Tools & Kits",
+   "Hair Styling Equipment",
+   "Skincare & Facial Devices",
+   "Nail Care Equipment",
+   "Body Care & Grooming Tools",
+   "Fragrance & Diffusion Tools",
+   "Event & Bridal Makeup Gear"
+  ],
+  "products": [
+   {
+    "name": "Hair Straightener",
+    "pricePerDay": 99,
+    "image": "https://picsum.photos/seed/beauty1/200/200",
+    "sub": "Hair Styling Equipment"
+   },
+   {
+    "name": "Facial Steamer",
+    "pricePerDay": 129,
+    "image": "https://picsum.photos/seed/beauty2/200/200",
+    "sub": "Skincare & Facial Devices"
+   },
+   {
+    "name": "Bridal Makeup Kit",
+    "pricePerDay": 399,
+    "image": "https://picsum.photos/seed/beauty3/200/200",
+    "sub": "Event & Bridal Makeup Gear"
+   }
+  ]
+ },
+ {
+  "name": "Private Rental Jets",
+  "icon": "assets/images/rental/categories/private jet.png",
+  "subcategories": [
+   "Jet",
+   "Helicopters",
+   "Plane"
+  ],
+  "products": [
+   {
+    "name": "Light Private Jet",
+    "pricePerDay": 450000,
+    "image": "https://picsum.photos/seed/jet1/200/200",
+    "sub": "Jet"
+   },
+   {
+    "name": "Charter Helicopter",
+    "pricePerDay": 120000,
+    "image": "https://picsum.photos/seed/jet2/200/200",
+    "sub": "Helicopters"
+   }
+  ]
+ },
+ {
+  "name": "Boats & Yachts",
+  "icon": "assets/images/rental/categories/boats & yachts.png",
+  "subcategories": [
+   "Boat Types",
+   "Yacht Types"
+  ],
+  "products": [
+   {
+    "name": "Speed Boat",
+    "pricePerDay": 8999,
+    "image": "https://picsum.photos/seed/boat1/200/200",
+    "sub": "Boat Types"
+   },
+   {
+    "name": "Luxury Yacht",
+    "pricePerDay": 49999,
+    "image": "https://picsum.photos/seed/boat2/200/200",
+    "sub": "Yacht Types"
+   }
+  ]
+ },
+ {
+  "name": "Musical Instruments",
+  "icon": "assets/images/rental/categories/Musical Instruments.png",
+  "subcategories": [
+   "String Instruments",
+   "Percussion Instruments",
+   "Keyboard Instruments",
+   "Wind Instruments",
+   "Electronic Instruments & Gear",
+   "Traditional & Folk Instruments",
+   "Accessories & Stands"
+  ],
+  "products": [
+   {
+    "name": "Acoustic Guitar",
+    "pricePerDay": 149,
+    "image": "https://picsum.photos/seed/music1/200/200",
+    "sub": "String Instruments"
+   },
+   {
+    "name": "Electronic Keyboard",
+    "pricePerDay": 299,
+    "image": "https://picsum.photos/seed/music2/200/200",
+    "sub": "Keyboard Instruments"
+   },
+   {
+    "name": "Tabla Set",
+    "pricePerDay": 199,
+    "image": "https://picsum.photos/seed/music3/200/200",
+    "sub": "Traditional & Folk Instruments"
+   }
+  ]
+ },
+ {
+  "name": "Home Appliances",
+  "icon": "assets/images/rental/categories/Home appliances.png",
+  "subcategories": [
+   "Kitchen Appliances",
+   "Laundry Appliances",
+   "Cleaning Appliances",
+   "Cooling & Heating Devices",
+   "Personal Care Appliances",
+   "Home Utility Devices",
+   "Entertainment & Lifestyle",
+   "Miscellaneous Appliances"
+  ],
+  "products": [
+   {
+    "name": "LG Double Door Fridge",
+    "pricePerDay": 699,
+    "image": "https://picsum.photos/seed/home1/200/200",
+    "sub": "Kitchen Appliances"
+   },
+   {
+    "name": "Washing Machine",
+    "pricePerDay": 249,
+    "image": "https://picsum.photos/seed/home2/200/200",
+    "sub": "Laundry Appliances"
+   },
+   {
+    "name": "Voltas 1.5 Ton AC",
+    "pricePerDay": 699,
+    "image": "https://picsum.photos/seed/home3/200/200",
+    "sub": "Cooling & Heating Devices"
+   }
+  ]
+ },
+ {
+  "name": "Party & Event Supplies",
+  "icon": "assets/images/rental/categories/Party & Event supply.png",
+  "subcategories": [
+   "Furniture & Seating",
+   "Lighting & Decor",
+   "Sound & Music Systems",
+   "Event Essentials",
+   "Catering Equipment",
+   "Thematic Props & Decor",
+   "Event Accessories",
+   "Special Effects",
+   "Kids Party Supplies",
+   "Miscellaneous"
+  ],
+  "products": [
+   {
+    "name": "LED Party Lights",
+    "pricePerDay": 199,
+    "image": "https://picsum.photos/seed/party1/200/200",
+    "sub": "Lighting & Decor"
+   },
+   {
+    "name": "Sound System",
+    "pricePerDay": 599,
+    "image": "https://picsum.photos/seed/party2/200/200",
+    "sub": "Sound & Music Systems"
+   },
+   {
+    "name": "Event Tent",
+    "pricePerDay": 1099,
+    "image": "https://picsum.photos/seed/party3/200/200",
+    "sub": "Event Essentials"
+   }
+  ]
+ },
+ {
+  "name": "Party Halls",
+  "icon": "assets/images/rental/categories/party Halls.png",
+  "subcategories": [
+   "Banquet Halls",
+   "Community Halls",
+   "Rooftop Venues",
+   "Garden Party Lawns",
+   "Open-Air Venues",
+   "Farmhouse",
+   "Co-working Event Spaces",
+   "Private Villas",
+   "Indoor Ballrooms",
+   "Hotel Conference Rooms",
+   "Heritage Venue",
+   "Clubhouses"
+  ],
+  "products": [
+   {
+    "name": "Grand Banquet Hall",
+    "pricePerDay": 49999,
+    "image": "https://picsum.photos/seed/hall1/200/200",
+    "sub": "Banquet Halls"
+   },
+   {
+    "name": "Rooftop Venue",
+    "pricePerDay": 19999,
+    "image": "https://picsum.photos/seed/hall2/200/200",
+    "sub": "Rooftop Venues"
+   },
+   {
+    "name": "Garden Farmhouse",
+    "pricePerDay": 29999,
+    "image": "https://picsum.photos/seed/hall3/200/200",
+    "sub": "Farmhouse"
+   }
+  ]
+ },
+ {
+  "name": "Medical Equipment",
+  "icon": "assets/images/rental/categories/Medical Equipments.png",
+  "subcategories": [
+   "Home Care Equipment",
+   "Respiratory Devices",
+   "Monitoring Equipment",
+   "Mobility Aids",
+   "Post-Surgical & Recovery Aids",
+   "Diagnostic Tools",
+   "Mother & Baby Care",
+   "Physiotherapy Devices",
+   "Sanitization & Safety",
+   "Specialty Equipment"
+  ],
+  "products": [
+   {
+    "name": "Wheelchair",
+    "pricePerDay": 99,
+    "image": "https://picsum.photos/seed/med1/200/200",
+    "sub": "Mobility Aids"
+   },
+   {
+    "name": "Oxygen Concentrator",
+    "pricePerDay": 299,
+    "image": "https://picsum.photos/seed/med2/200/200",
+    "sub": "Respiratory Devices"
+   },
+   {
+    "name": "BP Monitor",
+    "pricePerDay": 49,
+    "image": "https://picsum.photos/seed/med3/200/200",
+    "sub": "Monitoring Equipment"
+   }
+  ]
+ },
+ {
+  "name": "Camping & Outdoor Gear",
+  "icon": "assets/images/rental/categories/camping & outdoor gear.png",
+  "subcategories": [
+   "Shelter & Sleeping Gear",
+   "Cooking & Food Storage",
+   "Lighting & Power",
+   "Backpacks & Carriers",
+   "Navigation & Safety",
+   "Furniture & Comfort",
+   "Clothing & Accessories",
+   "Outdoor Activity Gear",
+   "Water Gear & Hydration",
+   "Kids & Family Camping",
+   "Eco-Friendly Supplies"
+  ],
+  "products": [
+   {
+    "name": "Camping Tent (4-Person)",
+    "pricePerDay": 299,
+    "image": "https://picsum.photos/seed/camp1/200/200",
+    "sub": "Shelter & Sleeping Gear"
+   },
+   {
+    "name": "Portable Camping Stove",
+    "pricePerDay": 149,
+    "image": "https://picsum.photos/seed/camp2/200/200",
+    "sub": "Cooking & Food Storage"
+   },
+   {
+    "name": "Hiking Backpack",
+    "pricePerDay": 99,
+    "image": "https://picsum.photos/seed/camp3/200/200",
+    "sub": "Backpacks & Carriers"
+   }
+  ]
+ },
+ {
+  "name": "Construction Equipment",
+  "icon": "assets/images/rental/categories/construction equipment.png",
+  "subcategories": [
+   "Earthmoving Equipment",
+   "Material Handling Equipment",
+   "Concrete & Cement Equipment",
+   "Compaction Equipment",
+   "Road Construction Machinery",
+   "Lifting & Access Equipment",
+   "Demolition Equipment",
+   "Power Tools & Generators",
+   "Surveying & Measurement Tools",
+   "Scaffolding & Support",
+   "Safety Gear & Accessories",
+   "Site Infrastructure"
+  ],
+  "products": [
+   {
+    "name": "Mini Excavator",
+    "pricePerDay": 3999,
+    "image": "https://picsum.photos/seed/const1/200/200",
+    "sub": "Earthmoving Equipment"
+   },
+   {
+    "name": "Concrete Mixer",
+    "pricePerDay": 599,
+    "image": "https://picsum.photos/seed/const2/200/200",
+    "sub": "Concrete & Cement Equipment"
+   },
+   {
+    "name": "Scaffolding Set",
+    "pricePerDay": 399,
+    "image": "https://picsum.photos/seed/const3/200/200",
+    "sub": "Scaffolding & Support"
+   }
+  ]
+ },
+ {
+  "name": "Wedding & Formal Wear",
+  "icon": "assets/images/rental/categories/wedding & formal wear.png",
+  "subcategories": [
+   "Men's Formal Wear",
+   "Women's Wedding Wear",
+   "Kids' Occasion Wear",
+   "Footwear",
+   "Accessories",
+   "Bridal & Groom Sets",
+   "Special Occasion Categories",
+   "Luxury Designer Wear",
+   "Seasonal Wear"
+  ],
+  "products": [
+   {
+    "name": "Designer Sherwani",
+    "pricePerDay": 999,
+    "image": "https://picsum.photos/seed/wed1/200/200",
+    "sub": "Men's Formal Wear"
+   },
+   {
+    "name": "Bridal Lehenga",
+    "pricePerDay": 2499,
+    "image": "https://picsum.photos/seed/wed2/200/200",
+    "sub": "Women's Wedding Wear"
+   },
+   {
+    "name": "Bridal & Groom Combo Set",
+    "pricePerDay": 3999,
+    "image": "https://picsum.photos/seed/wed3/200/200",
+    "sub": "Bridal & Groom Sets"
+   }
+  ]
+ },
+ {
+  "name": "Gardening Tools & Equipment",
+  "icon": "assets/images/rental/categories/gardening tools & equipment.png",
+  "subcategories": [
+   "Hand Tools",
+   "Power Tools",
+   "Watering Equipment",
+   "Planting & Soil Equipment",
+   "Protective & Utility Gear",
+   "Containers & Support",
+   "Garden Maintenance",
+   "Specialty Tools",
+   "Kids Gardening Tools"
+  ],
+  "products": [
+   {
+    "name": "Lawn Mower",
+    "pricePerDay": 299,
+    "image": "https://picsum.photos/seed/garden1/200/200",
+    "sub": "Power Tools"
+   },
+   {
+    "name": "Garden Hand Tool Set",
+    "pricePerDay": 99,
+    "image": "https://picsum.photos/seed/garden2/200/200",
+    "sub": "Hand Tools"
+   },
+   {
+    "name": "Watering Hose Kit",
+    "pricePerDay": 79,
+    "image": "https://picsum.photos/seed/garden3/200/200",
+    "sub": "Watering Equipment"
+   }
+  ]
+ },
+ {
+  "name": "Office Equipment (Printers, Projectors, Desks)",
+  "icon": "assets/images/rental/categories/office equipments.png",
+  "subcategories": [
+   "Printing & Scanning Devices",
+   "Presentation Equipment",
+   "Desks & Workstations",
+   "Seating",
+   "Computing Accessories",
+   "Storage & Organization",
+   "Networking & Connectivity Devices",
+   "Communication Tools",
+   "Office Lighting & Ambience",
+   "Office Décor & Supplies",
+   "Specialty Office Equipment"
+  ],
+  "products": [
+   {
+    "name": "Laser Printer",
+    "pricePerDay": 149,
+    "image": "https://picsum.photos/seed/office1/200/200",
+    "sub": "Printing & Scanning Devices"
+   },
+   {
+    "name": "HD Projector",
+    "pricePerDay": 299,
+    "image": "https://picsum.photos/seed/office2/200/200",
+    "sub": "Presentation Equipment"
+   },
+   {
+    "name": "Standing Desk",
+    "pricePerDay": 199,
+    "image": "https://picsum.photos/seed/office3/200/200",
+    "sub": "Desks & Workstations"
+   }
+  ]
+ },
+ {
+  "name": "Photography & Videography Equipment",
+  "icon": "assets/images/rental/categories/photo & video equipment.png",
+  "subcategories": [
+   "Cameras",
+   "Lenses & Optics",
+   "Lighting Equipment",
+   "Tripods & Stabilizers",
+   "Audio Gear",
+   "Video Production Equipment",
+   "Backdrops & Sets",
+   "Storage & Power",
+   "Accessories & Mounts",
+   "Drones & Aerial Gear",
+   "Post-Production Tools"
+  ],
+  "products": [
+   {
+    "name": "Canon EOS R6",
+    "pricePerDay": 899,
+    "image": "https://picsum.photos/seed/photo1/200/200",
+    "sub": "Cameras"
+   },
+   {
+    "name": "Studio Lighting Kit",
+    "pricePerDay": 399,
+    "image": "https://picsum.photos/seed/photo2/200/200",
+    "sub": "Lighting Equipment"
+   },
+   {
+    "name": "DJI Mini 4 Drone",
+    "pricePerDay": 1199,
+    "image": "https://picsum.photos/seed/photo3/200/200",
+    "sub": "Drones & Aerial Gear"
+   }
+  ]
+ },
+ {
+  "name": "Luxury Cars & Supercars",
+  "icon": "assets/images/rental/categories/Luxury cars.png",
+  "subcategories": [
+   "Luxury Sedans",
+   "Luxury SUVs",
+   "Sports Cars",
+   "Supercars & Hypercars",
+   "Convertibles",
+   "Coupes & Grand Tourers",
+   "Electric Luxury Cars",
+   "Chauffeur Services Add-on",
+   "Event & Wedding Packages",
+   "Special Editions"
+  ],
+  "products": [
+   {
+    "name": "Mercedes S-Class",
+    "pricePerDay": 24999,
+    "image": "https://picsum.photos/seed/luxcar1/200/200",
+    "sub": "Luxury Sedans"
+   },
+   {
+    "name": "Lamborghini Huracán",
+    "pricePerDay": 99999,
+    "image": "https://picsum.photos/seed/luxcar2/200/200",
+    "sub": "Supercars & Hypercars"
+   },
+   {
+    "name": "Range Rover Vogue",
+    "pricePerDay": 19999,
+    "image": "https://picsum.photos/seed/luxcar3/200/200",
+    "sub": "Luxury SUVs"
+   }
+  ]
+ },
+ {
+  "name": "Pet Accessories & Supplies",
+  "icon": "assets/images/rental/categories/pet accessories & supplies.png",
+  "subcategories": [
+   "Pet Furniture",
+   "Pet Apparel",
+   "Feeding Supplies",
+   "Pet Carriers & Travel Gear",
+   "Leashes, Collars & Harnesses",
+   "Toys & Enrichment",
+   "Grooming Equipment",
+   "Training Aids",
+   "Health & Wellness Supplies",
+   "Aquatic & Reptile Supplies",
+   "Pet Cameras & Monitors",
+   "Cleaning & Maintenance",
+   "Event & Costume Rentals",
+   "Pet Play Equipment"
+  ],
+  "products": [
+   {
+    "name": "Pet Travel Carrier",
+    "pricePerDay": 99,
+    "image": "https://picsum.photos/seed/pet1/200/200",
+    "sub": "Pet Carriers & Travel Gear"
+   },
+   {
+    "name": "Pet Grooming Kit",
+    "pricePerDay": 129,
+    "image": "https://picsum.photos/seed/pet2/200/200",
+    "sub": "Grooming Equipment"
+   },
+   {
+    "name": "Pet Camera Monitor",
+    "pricePerDay": 149,
+    "image": "https://picsum.photos/seed/pet3/200/200",
+    "sub": "Pet Cameras & Monitors"
+   }
+  ]
+ },
+ {
+  "name": "Hotels and Resorts",
+  "icon": "assets/images/rental/categories/Hotels and Resorts.png",
+  "subcategories": [
+   "Budget Hotels",
+   "Luxury Hotels",
+   "Resorts",
+   "Boutique Hotels",
+   "Business Hotels",
+   "Extended Stay Hotels",
+   "Heritage Hotels",
+   "Eco-Stays & Sustainable Resorts",
+   "Pet-Friendly Stays",
+   "Family Resorts",
+   "Couples Retreats",
+   "Wellness & Spa Retreats",
+   "Adventure Resorts",
+   "Themed Stays",
+   "Private Villas & Bungalows"
+  ],
+  "products": []
+ }
+]

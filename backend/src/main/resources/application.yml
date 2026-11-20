@@ -1,0 +1,79 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: rentoindia-backend
+
+  # ---- DATABASE (Supabase) ------------------------------------------------
+  # Use the SESSION POOLER string from Supabase -> Connect -> "Session pooler"
+  # (works over IPv4). Put the real values in environment variables, never in git:
+  #   DB_URL, DB_USER, DB_PASSWORD
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/postgres}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 8
+      minimum-idle: 2
+
+  jpa:
+    hibernate:
+      # Hibernate creates/updates tables itself. Good for development.
+      # Before production, switch to Flyway migrations + ddl-auto: validate.
+      ddl-auto: update
+    open-in-view: false
+    show-sql: false
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+
+  servlet:
+    multipart:
+      max-file-size: 25MB
+      max-request-size: 25MB
+
+  jackson:
+    default-property-inclusion: always
+    serialization:
+      write-dates-as-timestamps: false
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:CHANGE_THIS_TO_A_LONG_RANDOM_SECRET_AT_LEAST_256_BITS_LONG_1234567890}
+    access-token-expiry-minutes: 1440
+    refresh-token-expiry-days: 60
+  otp:
+    expiry-seconds: 300
+    length: 4                 # the Flutter OTP screen uses 4 boxes
+    # While you have no SMS key yet, the OTP is returned in the API response
+    # (field "devOtp") so the app can show it. SET TO false IN PRODUCTION.
+    dev-mode: ${OTP_DEV_MODE:true}
+  sms:
+    provider: ${SMS_PROVIDER:none}     # none | msg91
+    msg91-auth-key: ${MSG91_AUTH_KEY:}
+    msg91-template-id: ${MSG91_TEMPLATE_ID:}
+  admin:
+    # An admin account is created on first start if it does not exist.
+    phone: ${ADMIN_PHONE:9999999999}
+    email: ${ADMIN_EMAIL:admin@rentoindia.com}
+    password: ${ADMIN_PASSWORD:Admin@12345}
+  wallet:
+    # % of the rental amount credited back as coins after payment.
+    # The current app UI credits 100% - lower this (e.g. 2) before going live.
+    cashback-percent: ${CASHBACK_PERCENT:100}
+  upload-dir: ${UPLOAD_DIR:uploads}
+  seed-demo-data: ${SEED_DEMO_DATA:true}   # categories/brands/sample products/coupons on empty DB
+  razorpay:
+    key-id: ${RAZORPAY_KEY_ID:}
+    key-secret: ${RAZORPAY_KEY_SECRET:}
+
+springdoc:
+  swagger-ui:
+    path: /docs
+
+logging:
+  level:
+    com.rentoindia: INFO
